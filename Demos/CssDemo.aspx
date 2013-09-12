@@ -38,6 +38,28 @@
      {
          font-style: italic;
      }
+     
+     .Highlight
+     {
+         font-weight: bold;
+         color: Red
+     }
+     
+    
+     h1, h2, h3, h4, h5, h6
+     {
+         color: Green;
+     }
+     
+     
+     #MainContent p.Attention
+     {
+        font-size: 18px;
+     }
+     
+     
+     
+     
     </style>
 </head>
 <body>
@@ -50,6 +72,23 @@
         </p>
         <p id="IntroText">I am italic I have the right ID.</p>
         <p id="BodyText">I am NOT  italic becuase I have a different ID.</p>
+
+        <p class="Highlight">
+            Highlighted text.
+        </p>
+
+         This is normal text but <span class="Highlight"> This is Red and Bold.</span>
+         This is normal text but <a href="CssDemo.aspx" class="Highlight">this link is Red and Bold as well.</a>
+
+         <h2>This is Heading 2 text</h2>
+
+         
+         <div id="MainContent">
+            <p class="Attention">My class is Attenttion, so my text is bold.</p>
+            <p>My text is not bold, as it lacks the Attention class.</p>   
+         </div>
+         <p class="Attention">Iam NOT bold becuase I don't fall within MainContent.</p>
+
     </div>
     </form>
 </body>
