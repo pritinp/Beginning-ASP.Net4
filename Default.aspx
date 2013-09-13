@@ -14,10 +14,14 @@
             color: #00FF00;
         }
     </style>
+    <link href="Styles/Styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div id="PageWrapper">
+        <div id="Header">Header Goes Here</div>
+        <div id="MenuWrapper">Menu Goes Here</div>
+        <div id="MainContent">
     
         <h1>
             Hi there visitor and welcome to Planet Wrox</h1>
@@ -32,6 +36,8 @@
             and <strong>concert pictures</strong> to be found here</p>
     
     </div>
+    <div id="Sidebar">Sidebar Goes Here</div>
+    <div id="Footer">Footer Goes Here</div>
     </form>
 </body>
 </html>

@@ -57,6 +57,13 @@
         font-size: 18px;
      }
      
+     .MyDiv
+     {
+         width: 200px;
+         padding: 10px;
+         border: 5px solid black;
+     }
+     
      
      
      
@@ -88,6 +95,11 @@
             <p>My text is not bold, as it lacks the Attention class.</p>   
          </div>
          <p class="Attention">Iam NOT bold becuase I don't fall within MainContent.</p>
+
+
+         <div class="MyDiv">Element</div>
+
+
 
     </div>
     </form>
